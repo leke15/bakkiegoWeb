@@ -1,0 +1,22 @@
+.navbar-links> a:hover{
+    background: var(--primary-color);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.navbar-whatsapp{
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+    width: 200px;
+}
+
+.navbar-whatsapp > a {
+    text-decoration: none;
+}
+
+.navbar-whatsapp:hover{
+    background: var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.home-size{
+    height: 100vh;
+}
+
+.home-title-text{
+    font-size: 80px;
+    color: var(--primary-color);
+    font-family: 'Poppins';
+}
+
+@media (max-width: 767px) {
+    .home-title-text {
+      font-size: 40px; 
+    }
+    .card-sizer {
+      height: 70vh !important; /* Adjust this value as needed for smaller screens */
+    }
+  }

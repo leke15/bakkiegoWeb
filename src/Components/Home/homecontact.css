@@ -1,0 +1,33 @@
+.comp-spacing{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hc-card-styles{
+    margin-top: 10px;
+    width: 400px;
+    font-size: 25px;
+    border-radius: 15px !important;
+    background-color: white !important;
+    color: var(--primary-color) !important;
+}
+
+.hc-card-styles :hover{
+    transition: var(--transition);
+    background-color: black !important;
+    border-radius: 15px;
+    color: var(--primary-color) !important;
+}
+
+@media (max-width: 576px) {
+    .comp-spacing{
+        margin-top: 20vh;
+    }
+    .hc-card-styles {
+      display: none !important;
+    }
+    form {
+      border: "1px solid white";
+      padding: "10px";
+    }
+  }

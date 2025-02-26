@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #7fd75a;
+  --secondary-color: #42bd0f;
+  --transition: all 400ms ease;
+}
+
+body {
+  background-color: var(--primary-color) !important;
+  margin: 0;
+  font-family: "Poppins", sans-serif ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
