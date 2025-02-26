@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 .container-overlay {
     position: relative;
     width: 100%; /* Adjust as needed */
@@ -26,17 +27,13 @@
     font-size: 50px;
     background-color: black !important;
     color: var(--primary-color) !important;
+    font-family: 'Poppins';
   }
 
   .hs-card-styles:hover{
     transition: var(--transition);
     background-color: var(--primary-color) !important;
     color: black !important;
-  }
-
-  .hs-btn-text{
-    font-size: 20px !important;
-    color: white !important;
   }
 
   @media (max-width: 767px) {
