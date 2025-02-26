@@ -1,6 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faSquareWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 import "./homecontact.css";
 
 function HomeContact() {
@@ -11,12 +14,16 @@ function HomeContact() {
           <div className="container">
             <div className="card text-center mb-3 hc-card-styles">
               <div className="card-body ">
-                <div>
-                  <FontAwesomeIcon icon={faFacebook} />
-                </div>
-                <div>
-                  <small>bakkiego <br/> visit our profile</small>
-                </div>
+                <a href="https://www.facebook.com/Bakkiegoapp/" style={{textDecoration : "none"}}>
+                  <div>
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </div>
+                  <div>
+                    <small>
+                      bakkiego <br /> visit our profile
+                    </small>
+                  </div>
+                </a>
               </div>
             </div>
 
@@ -26,7 +33,9 @@ function HomeContact() {
                   <FontAwesomeIcon icon={faSquareWhatsapp} />
                 </div>
                 <div>
-                  <small>bakkiego <br/> send a messsage</small>
+                  <small>
+                    bakkiego <br /> send a messsage
+                  </small>
                 </div>
               </div>
             </div>
@@ -89,4 +98,4 @@ function HomeContact() {
   );
 }
 
-export default HomeContact; 
+export default HomeContact;
